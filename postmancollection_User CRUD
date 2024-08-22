@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "User CRUD",
+    "collectionId": "a9e2dd18-39c3-4e5f-bf13-992bd81b5086",
+    "dateExported": "2024-08-22T14:08:34.730Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "892b3f8b-f024-471f-b875-b2c4353934eb",
+            "colId": "a9e2dd18-39c3-4e5f-bf13-992bd81b5086",
+            "containerId": "",
+            "name": "CREATE USER ",
+            "url": "http://localhost:5000/api/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-22T14:08:00.483Z",
+            "modified": "2024-08-22T14:08:00.483Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"firstName\": \"John\",\r\n  \"lastName\": \"Doe\",\r\n  \"email\": \"john.doe@example.com\",\r\n  \"phone\": \"12345678988\"\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "b8628c5f-19d2-4be9-9c98-ece47b9f7933",
+            "colId": "a9e2dd18-39c3-4e5f-bf13-992bd81b5086",
+            "containerId": "",
+            "name": "GET ALL USER",
+            "url": "http://localhost:5000/api/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-22T14:08:07.205Z",
+            "modified": "2024-08-22T14:08:07.205Z",
+            "headers": []
+        },
+        {
+            "_id": "9759ebb4-5859-4e36-9139-de6cf3aa73c2",
+            "colId": "a9e2dd18-39c3-4e5f-bf13-992bd81b5086",
+            "containerId": "",
+            "name": "GET USER BY ID ",
+            "url": "http://localhost:5000/api/users/66c740cf4ff7838798c64e22",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-08-22T14:08:13.869Z",
+            "modified": "2024-08-22T14:08:13.869Z",
+            "headers": []
+        },
+        {
+            "_id": "55e81c9a-8ff5-43b3-8aa5-f6435f144e7c",
+            "colId": "a9e2dd18-39c3-4e5f-bf13-992bd81b5086",
+            "containerId": "",
+            "name": "UPDATE USER",
+            "url": "http://localhost:5000/api/users/66c740cf4ff7838798c64e22",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-08-22T14:08:21.201Z",
+            "modified": "2024-08-22T14:08:21.201Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"firstName\": \"Prasad\",\r\n  \"lastName\": \"Patharvat\",\r\n  \"email\": \"prasad@example.com\",\r\n  \"phone\": \"1234567890\"\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "8c09c56d-c737-4916-88a8-f25bb70151b4",
+            "colId": "a9e2dd18-39c3-4e5f-bf13-992bd81b5086",
+            "containerId": "",
+            "name": "DELETE USER ",
+            "url": "http://localhost:5000/api/users",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-08-22T14:08:26.369Z",
+            "modified": "2024-08-22T14:08:26.369Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\": \"Robert\",\n  \"lastName\": \"Dawyne\",\n  \"email\": \"robert@example.com\",\n  \"phone\": \"9876543210\"\n}\n",
+                "form": []
+            }
+        }
+    ],
+    "ref": "TeUf0Qe6luLcVPsDotTSijMZxn-SLdYpna3xiZjlU-t682s5BblsMD2SUWddQ_dhq4okPLS2zPz4FVw1pd2JjA"
+}
